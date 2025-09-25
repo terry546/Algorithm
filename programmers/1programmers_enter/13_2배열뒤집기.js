@@ -1,7 +1,7 @@
 function solution(num_list) {
     var reverse = []
-    for (i = num_list.length - 1; i >= 0; i--) {
-        reverse.push(num_list[i])
+    for(i=0; i < num_list.length; num_list--){
+        reverse = num_list[i]
         console.log(reverse)
     }
     
