@@ -1,4 +1,4 @@
-function solution(n) {
+const solution = n => {
     
     var answer = Math.ceil(n/7)
     console.log(Math.ceil(n/7))
